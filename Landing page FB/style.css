@@ -1,0 +1,44 @@
+.header {
+    background-color: rgb(61, 61, 155);
+    color: white;
+}
+
+.pertama {
+    padding-top: 10px;
+}
+
+.fb {
+    padding-left: 120px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.TBL {
+    margin-left: 120px;
+}
+
+.email {
+    padding-right: 70px;
+    padding-top: 10px;
+}
+
+.katasandi {
+    padding-top: 10px;
+}
+
+.login {
+    background-color: rgb(58, 58, 153);
+    color: white;
+    margin-left: 10px;
+}
+
+.peta {
+    padding-left: 120px;
+    margin-top: 40px;
+    color: #0e385f;
+}
+
+.kolom {
+    border-radius: 5px;
+}
