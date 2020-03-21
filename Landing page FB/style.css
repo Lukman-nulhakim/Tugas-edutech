@@ -3,6 +3,12 @@
     color: white;
 }
 
+.content {
+    background-image: url(/img/fbgradasi.png);
+    background-size: 1400px;
+    padding-bottom: 50px;
+}
+
 .pertama {
     padding-top: 10px;
 }
@@ -28,9 +34,14 @@
 }
 
 .login {
-    background-color: rgb(58, 58, 153);
+    background-color: rgb(82, 82, 185);
     color: white;
+    font-size: 13px;
+    text-align: end;
     margin-left: 10px;
+    margin-top: 2px;
+    height: 23px;
+    border: none;
 }
 
 .peta {
@@ -40,5 +51,29 @@
 }
 
 .kolom {
+    border-radius: 5px;
+}
+
+.tanggal-lahir {
+    font-family: inherit;
+    color: #90949c;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Jenis-kelamin {
+    font-family: inherit;
+    color: #90949c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.Daftar {
+    color: #ffffff;
+    background: #69a74e;
+    margin: 10px 0px;
+    padding: 7px 20px;
+    width: 200px;
     border-radius: 5px;
 }

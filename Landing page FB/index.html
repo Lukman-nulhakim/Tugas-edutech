@@ -23,21 +23,21 @@
                 <table class="TBL">
                     <tr>
                         <td class="email">
-                            <label for="email">Email atau Telepon</label>
+                            <label for="email" style="padding-left: 30px;">Email atau Telepon</label>
                         </td>
                         <td class="katasandi">
                             <label for="kata sandi">Kata sandi</label>
                         </td>
                     </tr>
                     <tr>
-                        <td><input type="Email"></td>
-                        <td><input type="password"></td>
+                        <td><input type="Email" style="width: 175px; height: 23px; margin-left: 30px;"></td>
+                        <td><input type="password" style="width: 175px; height: 23px;"></td>
                         <td><button class="login">Login</button></td>
                     </tr>
                     <tr>
                         <td class="login_form_label_field"></td>
                         <td class="login_form_label_field">
-                            <div><a href="#">Lupa akun?</a></div>
+                            <div><a href="#" style="color: #9cb4d8;">Lupa akun?</a></div>
                         </td>
                     </tr>
                 </table>
@@ -45,67 +45,84 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-6">
-            <div class="peta">
-                <h4>Facebook membantu Anda terhubung dan <br> dengan orang-orang dalam kehidupan <br> Anda.</h4>
-                <img src="img/Petafb.png" alt="" width="537" height="195">
-            </div>
-        </div>
-        <div class="col-6">
-            <h1><b>Daftar</b></h1>
-            <h5>In cepat dan mudah.</h5>
-            <form>
-                <div class="kolom">
-                    <tr class="kotak1">
-                        <td><input type="text" placeholder="Nama depan"></td>
-                        <td><input type="text" placeholder="Nama belakang"></td>
-                    </tr>
-                    <br>
-                    <br>
-                    <tr class="kotak2">
-                        <td><input type="text" placeholder="Nomor seluler atau email"></td>
-                    </tr>
-                    <br>
-                    <br>
-                    <tr class="kotak3">
-                        <td><input type="text" placeholder="Kata sandi baru"></td>
-                    </tr>
+    <!--Content-->
+    <div class="content">
+        <div class="row">
+            <div class="col-6">
+                <div class="peta">
+                    <h4>Facebook membantu Anda terhubung dan <br> dengan orang-orang dalam kehidupan <br> Anda.</h4>
+                    <img src="img/Petafb.png" alt="" width="537" height="195">
                 </div>
+            </div>
+            <div class="col-6">
+                <h1 style="margin-top: 15px;"><b>Daftar</b></h1>
+                <h5>In cepat dan mudah.</h5>
+                <form>
+
+                    <tr>
+                        <td><input type="text" placeholder="Nama depan" style="width: 220px; height: 40px; border-radius: 5px; margin-right: 7px;margin-top: 15px;">
+                        </td>
+                        <td><input type="text" placeholder="Nama belakang" style="width: 220px; height: 40px; border-radius: 5px;"></td>
+                    </tr><br>
+
+                    <tr>
+                        <td><input type="text" placeholder="Nomor seluler atau email" style="width: 450px; height: 40px; border-radius: 5px; margin-top: 10px;"></td>
+                    </tr><br>
+
+                    <tr>
+                        <td><input type="text" placeholder="Kata sandi baru" style="width: 450px; height: 40px; border-radius: 5px; margin-top: 10px; margin-bottom: 15px;">
+                        </td>
+                    </tr><br>
 
 
-                <label for="tanggal-lahir"> Tanggal Lahir</label><br>
-                <select id="tanggal-Lahir">
+
+                    <label class="tanggal-lahir">Tanggal Lahir</label><br>
+                    <select id="tanggal-Lahir" style="width: 90px; height: 30px;">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
-                    
+
                 </select>
-                <select id="Bulan">
+                    <select id="Bulan" style="width: 90px; height: 30px;">
                     <option value="Januari">Januari</option>
                     <option value="Februari">Februari</option>
                     <option value="Maret">Maret</option>
                     <option value="April">April</option>
                     <option value="Mei">Mei</option>
                     <option value="Juni">Juni</option>
-                    
+
                 </select>
-                <select id="Tahun">
-                   <option value="2000">2000</option>
-                   <option value="2001">2001</option>
-                   <option value="2002">2002</option>
-                   <option value="2003">2003</option>
-                   <option value="2004">2004</option>
-                   <option value="2005">2005</option>
-               </select><br>
-                <label for="Jenis kelamin">Jenis kelamin</label>
+                    <select id="Tahun" style="width: 90px; height: 30px;">
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                </select> <img src="/img/tandatanya.png" alt="" style="width: 22px; height: 17px; border-radius: 20px; margin-left: 10px;"> <br>
 
+                    <label class="Jenis-kelamin">Jenis kelamin</label><br>
 
+                    <input type="radio" id="Perempuan" name="gender" value="Perempuan">
+                    <label for="Perempuan"><b>Perempuan</b></label>
+                    <input type="radio" id="Laki-laki" name="gender" value="Laki-laki">
+                    <label for="Laki-laki"><b>Laki-laki</b></label>
+                    <input type="radio" id="Khusus" name="gender" value="Khusus">
+                    <label for="Khusus"><b>Khusus</b></label> <img src="/img/tandatanya.png" alt="" style="width: 22px; height: 17px; border-radius: 20px; margin-left: 15px; margin-bottom: 5px;">
+                    <br>
+                    <p style="font-size: 11px; color: #777777;">Dengan mengklik Daftar, Anda menyetujui Ketentuan, Kebijakan<br>Data dan Kebijakan Cookie kami. Anda akan menerima Notifikasi<br>SMS dari Facebook dan dapat menolaknya kapan saja.
+                    </p>
 
+                    <button class="Daftar">Daftar</button>
+                    <br>
+                    <div class="end">
+                        <a href="#">Buat halaman</a> untuk selebriti, grup musik, atau bisnis.
+                    </div>
 
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 
