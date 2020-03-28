@@ -1,0 +1,75 @@
+.main {
+    background-color: rgb(255, 214, 0);
+}
+
+.mulai {
+    width: 700px;
+    height: 100px;
+    background-color: rgb(255, 214, 0);
+    transition: all 3s ease;
+}
+
+.tombol {
+    color: rgb(45, 45, 45);
+    transition: .2s;
+    font-weight: 600;
+    background-color: rgb(255, 214, 0);
+    font-size: 20px;
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.4);
+}
+
+.img-fluid {
+    width: 300px;
+    height: 70px;
+    border: 3px solid lightgray;
+    margin-bottom: 30px;
+}
+
+.member1 {
+    background-color: rgb(255, 214, 0);
+}
+
+.member {
+    font-size: 45px;
+}
+
+.btn2 {
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+.apa {
+    text-align: center;
+    background-color: rgb(255, 214, 0);
+    border-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid rgb(24, 23, 23)
+}
+
+.logistik {
+    width: 200px;
+    height: 300px;
+}
+
+#ceklis {
+    color: rgb(255, 214, 0);
+    padding: 10px 10px;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #eee;
+    border-radius: 4px;
+    margin: 5px 0;
+    margin-right: 6px;
+    width: auto;
+    margin-left: 0 !important;
+    display: inline-block;
+}
