@@ -1,0 +1,19 @@
+.section2 {
+    background-image: url(../img/banner.png);
+    background-size: 1400px;
+    background-attachment: fixed;
+}
+
+.jumbotron {
+    background-image: url(../img/bg-room.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: lightgrey;
+}
+
+.welcome {
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
